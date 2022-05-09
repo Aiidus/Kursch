@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="196.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PreTest">
+   <children>
+      <TextField fx:id="TestName" layoutX="86.0" layoutY="45.0" promptText="Название теста" />
+      <TextField fx:id="TopicTest" layoutX="86.0" layoutY="98.0" promptText="Тема теста" />
+      <Button fx:id="CreateBt" layoutX="131.0" layoutY="144.0" mnemonicParsing="false" text="Создать" />
+      <Button fx:id="BackBt" layoutX="14.0" layoutY="144.0" mnemonicParsing="false" text="назад" />
+   </children>
+</AnchorPane>

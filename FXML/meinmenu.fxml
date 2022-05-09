@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+   <children>
+      <Button fx:id="CreateNewTestBt" layoutX="238.0" layoutY="175.0" mnemonicParsing="false" text="Создать новый тест" />
+      <Button fx:id="MyTestBt" layoutX="263.0" layoutY="236.0" mnemonicParsing="false" text="Мои тесты" />
+      <Button fx:id="StartTestBt" layoutX="259.0" layoutY="112.0" mnemonicParsing="false" text="Пройти тест" />
+      <Button fx:id="ExitBt" layoutX="274.0" layoutY="285.0" mnemonicParsing="false" text="Выйти" />
+   </children>
+</AnchorPane>
